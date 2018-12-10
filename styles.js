@@ -1,4 +1,8 @@
-export default Object.freeze({
+import {
+    StyleSheet,
+} from 'react-native';
+
+const styles = StyleSheet.create({
   blockQuote: {
     marginLeft: 10,
     opacity: 0.8,
@@ -141,3 +145,5 @@ export default Object.freeze({
     textDecorationLine: 'underline',
   },
 })
+
+export default styles;
